@@ -8,7 +8,7 @@
 import Foundation
 
 struct Track {
-    var name: String
+    let name: String
     
     static func make() -> [String] {
         let trackNames = [

@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class PlayerViewController: UIViewController {
     
     var player = AVAudioPlayer()
     var trackNames = Track.make()

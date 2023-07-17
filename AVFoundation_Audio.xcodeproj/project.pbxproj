@@ -3,41 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		15B5622525DE323700D5B871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5622425DE323700D5B871 /* AppDelegate.swift */; };
 		15B5622725DE323700D5B871 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5622625DE323700D5B871 /* SceneDelegate.swift */; };
-		15B5622925DE323700D5B871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5622825DE323700D5B871 /* ViewController.swift */; };
+		15B5622925DE323700D5B871 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5622825DE323700D5B871 /* PlayerViewController.swift */; };
 		15B5622C25DE323700D5B871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B5622A25DE323700D5B871 /* Main.storyboard */; };
 		15B5622E25DE323900D5B871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B5622D25DE323900D5B871 /* Assets.xcassets */; };
 		15B5623125DE323900D5B871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B5622F25DE323900D5B871 /* LaunchScreen.storyboard */; };
 		15B5623B25DE403800D5B871 /* Queen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15B5623A25DE403800D5B871 /* Queen.mp3 */; };
+		CB85D8EF2A652FC400662946 /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB85D8EE2A652FC400662946 /* RecorderViewController.swift */; };
 		CBAE8C862A615EAA00642F64 /* Stolen Dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBAE8C812A615EAA00642F64 /* Stolen Dance.mp3 */; };
 		CBAE8C872A615EAA00642F64 /* Bounce Bitch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBAE8C822A615EAA00642F64 /* Bounce Bitch.mp3 */; };
 		CBAE8C882A615EAA00642F64 /* Goodbye.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBAE8C832A615EAA00642F64 /* Goodbye.mp3 */; };
 		CBAE8C892A615EAA00642F64 /* Tuesday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBAE8C842A615EAA00642F64 /* Tuesday.mp3 */; };
 		CBAE8C8A2A615EAA00642F64 /* Castle In The Snow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBAE8C852A615EAA00642F64 /* Castle In The Snow.mp3 */; };
 		CBAE8C8C2A615EE700642F64 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAE8C8B2A615EE700642F64 /* Track.swift */; };
+		CBD27FAB2A63EA2200CE3C7B /* YouTubeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD27FAA2A63EA2200CE3C7B /* YouTubeTableViewController.swift */; };
+		CBD27FAD2A63FDB200CE3C7B /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD27FAC2A63FDB200CE3C7B /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15B5622125DE323700D5B871 /* AVFoundation_Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundation_Audio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B5622425DE323700D5B871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15B5622625DE323700D5B871 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		15B5622825DE323700D5B871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15B5622825DE323700D5B871 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		15B5622B25DE323700D5B871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15B5622D25DE323900D5B871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15B5623025DE323900D5B871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15B5623225DE323900D5B871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15B5623A25DE403800D5B871 /* Queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Queen.mp3; sourceTree = "<group>"; };
+		CB85D8EE2A652FC400662946 /* RecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
 		CBAE8C812A615EAA00642F64 /* Stolen Dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Stolen Dance.mp3"; sourceTree = "<group>"; };
 		CBAE8C822A615EAA00642F64 /* Bounce Bitch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bounce Bitch.mp3"; sourceTree = "<group>"; };
 		CBAE8C832A615EAA00642F64 /* Goodbye.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Goodbye.mp3; sourceTree = "<group>"; };
 		CBAE8C842A615EAA00642F64 /* Tuesday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tuesday.mp3; sourceTree = "<group>"; };
 		CBAE8C852A615EAA00642F64 /* Castle In The Snow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Castle In The Snow.mp3"; sourceTree = "<group>"; };
 		CBAE8C8B2A615EE700642F64 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		CBD27FAA2A63EA2200CE3C7B /* YouTubeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeTableViewController.swift; sourceTree = "<group>"; };
+		CBD27FAC2A63FDB200CE3C7B /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +78,10 @@
 			children = (
 				15B5622425DE323700D5B871 /* AppDelegate.swift */,
 				15B5622625DE323700D5B871 /* SceneDelegate.swift */,
-				15B5622825DE323700D5B871 /* ViewController.swift */,
+				15B5622825DE323700D5B871 /* PlayerViewController.swift */,
+				CBD27FAA2A63EA2200CE3C7B /* YouTubeTableViewController.swift */,
+				CB85D8EE2A652FC400662946 /* RecorderViewController.swift */,
+				CBD27FAC2A63FDB200CE3C7B /* Video.swift */,
 				CBAE8C8B2A615EE700642F64 /* Track.swift */,
 				15B5622A25DE323700D5B871 /* Main.storyboard */,
 				15B5622D25DE323900D5B871 /* Assets.xcassets */,
@@ -122,8 +131,9 @@
 		15B5621925DE323700D5B871 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					15B5622025DE323700D5B871 = {
 						CreatedOnToolsVersion = 12.3;
@@ -172,10 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15B5622925DE323700D5B871 /* ViewController.swift in Sources */,
+				15B5622925DE323700D5B871 /* PlayerViewController.swift in Sources */,
+				CBD27FAD2A63FDB200CE3C7B /* Video.swift in Sources */,
 				15B5622525DE323700D5B871 /* AppDelegate.swift in Sources */,
 				15B5622725DE323700D5B871 /* SceneDelegate.swift in Sources */,
+				CBD27FAB2A63EA2200CE3C7B /* YouTubeTableViewController.swift in Sources */,
 				CBAE8C8C2A615EE700642F64 /* Track.swift in Sources */,
+				CB85D8EF2A652FC400662946 /* RecorderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +251,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -252,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -299,6 +313,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -307,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
