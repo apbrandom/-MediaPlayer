@@ -160,6 +160,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="recordingtape.circle" catalog="system" selectedImage="recordingtape.circle.fill" id="vXJ-qM-jA0"/>
+                    <connections>
+                        <outlet property="recordButtonImage" destination="clI-mf-H0w" id="F82-VK-aGq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="55Q-7w-ACs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
