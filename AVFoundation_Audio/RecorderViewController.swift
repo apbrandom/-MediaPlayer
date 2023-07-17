@@ -20,18 +20,21 @@ class RecorderViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //        DispatchQueue.main.async {
-        //            AVAudioSession.sharedInstance().requestRecordPermission { granted in
-        //                if !granted {
-        //                    // Если доступ запрещен, вы можете предпринять соответствующие действия, например, показать предупреждение пользователю
-        //                    print("Доступ к микрофону запрещен")
-        //                }
-        //            }
-        //        }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        AVAudioSession.sharedInstance().requestRecordPermission { granted in
+            if !granted {
+                // Show appropriate user alert or take necessary actions
+                print("Microphone access denied")
+            }
+        }
     }
     
     @IBAction func recordButtonTapped(_ sender: Any) {
-        if audioRecorder?.isRecording == true {
+        if audioRecorder?.isRecording != nil {
             //stop recording
             audioRecorder?.stop()
             audioRecorder = nil
@@ -58,7 +61,6 @@ class RecorderViewController: UIViewController {
             } catch {
                 print("Error when created AVAudioRecorder: \(error.localizedDescription)")
             }
-            
         }
     }
         
